@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Ada colspan adan rowspan dan ada col cari aja diinternet-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Belajar Table</h1>
+
+    <table style="border: 1px solid black">
+      <colgroup>
+        <col span="2" style="background-color: yellow" />
+        <col style="background-color: blue" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="2">Nama Depan</th>
+          <th>Nilai</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Egi</th>
+          <th>Pebriyawan</th>
+          <th>100</th>
+        </tr>
+        <tr>
+          <th>Genza</th>
+          <th>Dita</th>
+          <th>20</th>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th rowspan="2">Total</th>
+          <th>total</th>
+          <th>120</th>
+        </tr>
+        <tr>
+          <th>Rata rata</th>
+          <th>60</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
